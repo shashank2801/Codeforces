@@ -1,0 +1,21 @@
+#include<iostream>
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+	int A[3],ans;
+	cin >> A[0] >> A[1] >> A[2];
+	sort(A,A+3);
+	
+	if(A[0]==1 && A[2]!=1)
+	ans = (A[0]+A[1])*A[2];
+	else if(A[0]==1 && A[2]==1)
+	ans = 3;
+	else
+	ans = (A[0]*A[1])*A[2];
+	
+	cout << ans << endl;
+	
+return 0;
+}

@@ -1,0 +1,6 @@
+141A
+take three string input
+add first two
+sort the resultant string
+and the third string
+compare
